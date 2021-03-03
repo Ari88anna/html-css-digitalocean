@@ -1,0 +1,15 @@
+/* COMMON */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* HEADER */
+
+/* top nav */
+
+.ms_logo {
+    width: 100%;
+    max-width: 190px;
+}
