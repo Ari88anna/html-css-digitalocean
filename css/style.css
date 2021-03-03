@@ -8,8 +8,42 @@ body {
 /* HEADER */
 
 /* top nav */
+.top_nav {
+    padding: 20px 0;
+}
 
 .ms_logo {
     width: 100%;
-    max-width: 190px;
+    max-width: 190px;   
+}
+
+.nav_menu {
+    line-height: 35px;
+}
+
+.nav_menu a {
+    color: hsl(221,93%,16%);
+
+}
+
+.nav_menu_left li {
+    margin-right: 10px;
+}
+
+.nav_menu_right li {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.ms_nolistyle {
+    list-style-type: none;    
+}
+.ms_nolistyle li {
+    display: inline-block;
+}
+
+.burger_menu {
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
 }
