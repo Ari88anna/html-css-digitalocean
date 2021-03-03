@@ -31,8 +31,11 @@ body {
 }
 
 .nav_menu_right li {
-    margin-left: 10px;
-    text-align: left;
+    margin-left: 10px;    
+}
+
+.nav_menu_right {
+    text-align: right;
 }
 
 .ms_nolistyle {
@@ -46,4 +49,33 @@ body {
     font-size: 30px;
     text-align: right;
     padding-right: 10px;
+}
+
+/* MAIN */
+
+/* jumbotron section */
+
+.ms_jumbo {
+    background-image: url("../img/ms-jumbo.jpg");
+}
+
+.jumbo_content {
+    padding: 20px 0;
+}
+
+.jumbo_teaser {
+    color: white;    
+}
+.jumbo_teaser h1{
+    font-size: 55px;
+}
+.jumbo_teaser p {
+    
+}
+
+.jumbo_form {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 20px;
 }
