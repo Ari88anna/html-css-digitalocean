@@ -70,7 +70,8 @@ body {
     font-size: 55px;
 }
 .jumbo_teaser p {
-    
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .jumbo_form {
@@ -78,4 +79,10 @@ body {
     border-radius: 5px;
     text-align: center;
     padding: 5px 20px;
+}
+
+.google_logo {
+    width: 5%; 
+    position: relative;
+    left: -150px;   
 }
