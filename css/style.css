@@ -228,27 +228,37 @@ body {
     padding: 40px 0;
 }
 
-
-[class*="chevron_"] {
+.user_slider {
     position: relative;
 }
 
-.ms_chevron {
-    font-size: 30px;
+.chevron_left {
     position: absolute;
-    top: 100px;
-    left: 5px;
+    top: 50%; 
+    left: -10%;   
 }
+
+.chevron_right {
+    position: absolute;
+    top: 50%; 
+    right: -10%;   
+}
+
 
 .chevron_right i{
     color: darkblue;  
 }
 
-.ms_user i {
-    font-size:40px;
-    padding-top: 40px;
+.user_slider i {
+    font-size: 25px;    
 }
 
+/* customers section */
+
+.ms_customers {
+    background-color: darkblue;
+    color: white;
+}
 
 
 
