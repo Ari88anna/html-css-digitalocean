@@ -2,6 +2,21 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    min-width: 320px;
+}
+
+.ms_section {
+    padding: 40px 0;
+}
+
+.blue_link {
+    color: #0064f8;
+    font-size: 12px;
+}
+
+.blue_link:hover {
+    color: #1633ff;
+    text-decoration: none;
 }
 
 
@@ -26,20 +41,25 @@ body {
 
 }
 
-.nav_menu_left li {
-    margin-right: 10px;
+.nav_menu_left {
+    text-align: center;
 }
 
-.nav_menu_right li {
-    margin-left: 10px;    
+.nav_menu_left li {
+    margin-right: 10px;
 }
 
 .nav_menu_right {
     text-align: right;
 }
 
+.nav_menu_right li {
+    margin-left: 10px;    
+}
+
 .ms_nolistyle {
-    list-style-type: none;    
+    list-style-type: none;
+    padding: 0;    
 }
 .ms_nolistyle li {
     display: inline-block;
@@ -63,6 +83,7 @@ body {
     padding: 20px 0;
 }
 
+/* jumbo teaser */
 .jumbo_teaser {
     color: white;    
 }
@@ -74,6 +95,8 @@ body {
     font-weight: 100;
 }
 
+/* jumbo form */
+
 .jumbo_form {
     background-color: white;
     border-radius: 5px;
@@ -81,13 +104,51 @@ body {
     padding: 5px 20px;
 }
 
-.google_button {
-    position: relative; 
-      
+.jumbo_form h2 {
+    font-size: 25px;
 }
 
+.jumbo_form h3 {
+    color: #1633ff;    
+} 
+
+.jumbo_form a {
+    text-decoration: underline;
+}
+.jumbo_form p {
+    margin: 10px 0;
+}
+
+
+.google_button {
+    position: relative;
+    width:100%;
+    padding: 10px 0;  
+    margin-top: 2px;
+    border:0;
+    background-color: white;
+    box-shadow: 1px 1px 1px lightgrey;
+    border-radius: 5%;
+}    
 .google_logo {
     width: 5%; 
     position: absolute;
     left: 0;    
 } 
+
+/* brand section */
+
+.brand_section {
+    background-color: #f3f5f9;
+}
+
+.brand_text {
+    text-transform: uppercase;
+    color: #646987;
+    text-align: center;
+}
+
+/* da sistemare le img */
+
+
+
