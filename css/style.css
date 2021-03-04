@@ -234,24 +234,30 @@ body {
 
 .chevron_left {
     position: absolute;
-    top: 50%; 
-    left: -10%;   
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;   
 }
 
 .chevron_right {
     position: absolute;
-    top: 50%; 
-    right: -10%;   
+    top: 50%;
+    transform: translateY(-50%);    
+    right: -30px;   
 }
-
-
 .chevron_right i{
     color: darkblue;  
 }
 
-.user_slider i {
+.ms_chevron {
     font-size: 25px;    
 }
+
+.ms_user {
+    font-size: 40px;
+}
+
+
 
 /* customers section */
 
