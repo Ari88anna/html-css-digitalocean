@@ -9,6 +9,19 @@ body {
     padding: 40px 0;
 }
 
+.section_title {
+    text-align: center;
+}
+
+.section_title h3 {
+    color: #031b4e;
+}
+
+.section_title p {
+    color: #7989b0;
+    font-size: 16px;
+}
+
 .blue_link {
     color: #0064f8;
     font-size: 12px;
@@ -17,6 +30,11 @@ body {
 .blue_link:hover {
     color: #1633ff;
     text-decoration: none;
+}
+
+.small_wrapper {
+    width: 80%;
+    margin:auto;   
 }
 
 
@@ -61,6 +79,7 @@ body {
     list-style-type: none;
     padding: 0;    
 }
+
 .ms_nolistyle li {
     display: inline-block;
 }
@@ -148,8 +167,6 @@ body {
     text-align: center;
 }
 
-/* da sistemare le img */
-
 .brand_icons {
     list-style-type: none;
     padding: 0;
@@ -157,16 +174,41 @@ body {
 
 .brand_icons li {
     display: inline-block;
-    width: calc( (100% / 6 ) - 4px );
-       
-}
-
-@media all and (max-width: 778px) {
-    .brand_icons li {
-        width: calc( (100% / 2 ) - 2px );        
-    }
+    width: calc( (100% / 6 ) - 4px );       
 }
 
 .brand_icons li img {
     width: 100%;    
 }
+
+
+@media all and (max-width: 778px) {
+    .brand_icons li {
+        width: calc( (100% / 2 ) - 2px );
+        text-align: center;                
+    }
+    .brand_icons li img {
+        width: 80%;
+    }
+}
+
+
+/* how to and tools section */
+
+.how_to_list {    
+    border-left: 1px solid grey;  
+}
+
+.how_to_list ul {
+    list-style-type: none;
+    padding: 5px; 
+}
+
+.how_to_list li {
+    margin-bottom: 20px;
+}
+
+
+
+
+
