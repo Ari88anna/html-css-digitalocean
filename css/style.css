@@ -9,12 +9,17 @@ body {
     padding: 40px 0;
 }
 
+.bg_grey {
+    background-color: #f3f5f9;
+}
+
 .section_title {
-    text-align: center;
+    text-align: center;    
 }
 
 .section_title h3 {
     color: #031b4e;
+    padding: 10px 0;
 }
 
 .section_title p {
@@ -158,10 +163,6 @@ body {
 
 /* brand section */
 
-.brand_section {
-    background-color: #f3f5f9;
-}
-
 .brand_text {
     text-transform: uppercase;
     color: #646987;
@@ -208,9 +209,7 @@ body {
 .tools_list li {
     margin-bottom: 20px;
 }
-.tools_list a {
-
-}
+/* SISTEMARE I TAG A */
 
 .tools_box {
     margin-bottom: 30px;
@@ -219,6 +218,39 @@ body {
 .tools_box h4 {
     color: #031b4e;
 }
+
+/* user section */
+
+.ms_smaller {
+    width: 50%;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+
+[class*="chevron_"] {
+    position: relative;
+}
+
+.ms_chevron {
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    left: 5px;
+}
+
+.chevron_right i{
+    color: darkblue;
+}
+
+.ms_user i {
+    font-size:40px;
+    padding-top: 40px;
+}
+
+/* features section */
+
 
 
 
