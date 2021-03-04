@@ -150,5 +150,8 @@ body {
 
 /* da sistemare le img */
 
-
+.brand_section img {
+    height:125px;
+    width: 100%;    
+}
 
