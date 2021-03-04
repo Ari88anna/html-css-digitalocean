@@ -150,8 +150,23 @@ body {
 
 /* da sistemare le img */
 
-.brand_section img {
-    height:125px;
-    width: 100%;    
+.brand_icons {
+    list-style-type: none;
+    padding: 0;
 }
 
+.brand_icons li {
+    display: inline-block;
+    width: calc( (100% / 6 ) - 4px );
+       
+}
+
+@media all and (max-width: 778px) {
+    .brand_icons li {
+        width: calc( (100% / 2 ) - 2px );        
+    }
+}
+
+.brand_icons li img {
+    width: 100%;    
+}
