@@ -34,7 +34,8 @@ body {
 
 .small_wrapper {
     width: 80%;
-    margin:auto;   
+    margin:auto;
+    padding: 40px 0;   
 }
 
 
@@ -195,18 +196,31 @@ body {
 
 /* how to and tools section */
 
-.how_to_list {    
+.tools_list {    
     border-left: 1px solid grey;  
 }
 
-.how_to_list ul {
+.tools_list ul {
     list-style-type: none;
-    padding: 5px; 
+    padding: 20px; 
 }
 
-.how_to_list li {
+.tools_list li {
     margin-bottom: 20px;
 }
+.tools_list a {
+
+}
+
+.tools_box {
+    margin-bottom: 30px;
+}
+
+.tools_box h4 {
+    color: #031b4e;
+}
+
+
 
 
 
