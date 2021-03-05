@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
@@ -141,8 +143,9 @@
                                     <div class="form-group">
                                         <input class="form-control" type="password" placeholder="Password">
                                     </div>
-                                    <button type="button" class="btn btn-primary btn-lg btn-block">Create your account</button>
-                                    <button class="google_button" type="button" class="btn btn-default btn-lg btn-block">
+
+                                    <button type="button" class="account_btn btn btn-primary btn-lg btn-block">Create your account</button>
+                                    <button type="button" class="google_btn btn btn-default btn-lg btn-block">
                                         <img class="google_logo" src="img/google-icon.png" alt="Google logo">
                                         Sign up with Google
                                     </button>
@@ -244,15 +247,14 @@
                                         <img src="img/cluster-deploy.svg" alt="">
                                         <h4>Cluster deployments</h4>
                                         <p>Prevision multiple Droplets (virtual machines) in second width our control panel, CLI, or directly against our API</p>
-
                                     </div>
                                 </div>
 
                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                     <div class="tools_box">
                                         <img src="img/optimized-compute.svg" alt="">
-                                        <h4>Cluster deployments</h4>
-                                        <p>Prevision multiple Droplets (virtual machines) in second width our control panel, CLI, or directly against our API</p>
+                                        <h4>Optimized computer types</h4>
+                                        <p>Get the computer resources you need with Standard or Optimized Droplets</p>
                                     </div>
                                 </div>
                             </div>
@@ -262,16 +264,16 @@
                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                     <div class="tools_box">
                                         <img src="img/one-click.svg" alt="">
-                                        <h4>Cluster deployments</h4>
-                                        <p>Prevision multiple Droplets (virtual machines) in second width our control panel, CLI, or directly against our API</p>
+                                        <h4>One-click apps</h4>
+                                        <p>Skip the install and configuration process with pre-built open source images supportingRails, Cassandra, Docker, and more.</p>
                                     </div>
                                 </div>
 
                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                     <div class="tools_box">
                                         <img src="img/global.svg" alt="">
-                                        <h4>Cluster deployments</h4>
-                                        <p>Prevision multiple Droplets (virtual machines) in second width our control panel, CLI, or directly against our API</p>
+                                        <h4>Global availability</h4>
+                                        <p>Deploy to any of our data center regions around the worlds</p>
                                     </div>
                                 </div>
 
@@ -316,7 +318,6 @@
                     <div class="text-center ms_section">
                         <p>Create computer servers in 55 seconds or less</p>
                         <a class="blue_link ms_user" href=""><i class="fas fa-ellipsis-h"></i></a>
-
                     </div>
 
                 </div>
@@ -337,25 +338,28 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
                             <div class="tools_box">
-                                <img src="img/global.svg" alt="">
-                                <h4>Cluster deployments</h4>
-                                <p>Prevision multiple Droplets (virtual machines) in second width our control panel, CLI, or directly against our API</p>
+                                <img src="img/pred-pricing.svg" alt="">
+                                <h4>Predictable pricing</h4>
+                                <p>Leave complex pricing stuctures behind. Always know what you'll pay per month with a flat, industy-leading pricing structure.</p>
+                                <a class="blue_link" href="">Pricing<i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="tools_box">
+                                <img src="img/world-class.svg" alt="">
+                                <h4>World-class service</h4>
+                                <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
+                                <a class="blue_link" href="">Support<i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xs-12 col-sm-4">
                             <div class="tools_box">
                                 <img src="img/global.svg" alt="">
-                                <h4>Cluster deployments</h4>
-                                <p>Prevision multiple Droplets (virtual machines) in second width our control panel, CLI, or directly against our API</p>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-4">
-                            <div class="tools_box">
-                                <img src="img/global.svg" alt="">
-                                <h4>Cluster deployments</h4>
-                                <p>Prevision multiple Droplets (virtual machines) in second width our control panel, CLI, or directly against our API</p>
+                                <h4>Reliable platform</h4>
+                                <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services</p>
+                                <a class="blue_link" href="">Security<i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
 
@@ -485,107 +489,109 @@
                     <!-- Column city right -->
                     <div class="col-xs-12  col-md-6">
 
-                        <!-- column right, 1 row -->
-                        <div class="tab_line">
+                        <div class="right_tab">
+                            <!-- column right, 1 row -->
+                            <div class="tab_line">
 
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <span class="city_code">AMS2</span>
-                                </div>
-                                <div class="col-xs-6">
-                                    <span class="tab_city">Amsterdam, Netherlands</span>
-                                </div>
-                                <div class="col-xs-3">
-                                    <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <span class="city_code">AMS2</span>
+                                    </div>
+                                    <div class="col-xs-6">
+                                         <span class="tab_city">Amsterdam, Netherlands</span>
+                                    </div>
+                                    <div class="col-xs-3">
+                                         <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- end 1 row -->
+                            <!-- end 1 row -->
 
-                        <!-- column right, 2 row -->
-                        <div class="tab_line">
+                            <!-- column right, 2 row -->
+                            <div class="tab_line">
 
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <span class="city_code">AMS2</span>
-                                </div>
-                                <div class="col-xs-6">
-                                    <span class="tab_city">Amsterdam, Netherlands</span>
-                                </div>
-                                <div class="col-xs-3">
-                                    <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <span class="city_code">AMS2</span>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <span class="tab_city">Amsterdam, Netherlands</span>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- end 2 row -->
+                            <!-- end 2 row -->
 
-                        <!-- column right, 3 row -->
-                        <div class="tab_line">
+                            <!-- column right, 3 row -->
+                            <div class="tab_line">
 
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <span class="city_code">BLR1</span>
-                                </div>
-                                <div class="col-xs-6">
-                                    <span class="tab_city">Bangalore, India</span>
-                                </div>
-                                <div class="col-xs-3">
-                                    <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <span class="city_code">BLR1</span>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <span class="tab_city">Bangalore, India</span>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- end 3 row -->
+                             <!-- end 3 row -->
 
-                        <!-- column right, 4 row -->
-                        <div class="tab_line">
+                            <!-- column right, 4 row -->
+                            <div class="tab_line">
 
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <span class="city_code">FRA1</span>
-                                </div>
-                                <div class="col-xs-6">
-                                    <span class="tab_city">Frankfurt, German</span>
-                                </div>
-                                <div class="col-xs-3">
-                                    <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <span class="city_code">FRA1</span>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <span class="tab_city">Frankfurt, German</span>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- end 4 row -->
+                            <!-- end 4 row -->
 
-                        <!-- column right, 5 row -->
-                        <div class="tab_line">
+                            <!-- column right, 5 row -->
+                            <div class="tab_line">
 
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <span class="city_code">LON1</span>
-                                </div>
-                                <div class="col-xs-6">
-                                    <span class="tab_city">London, UK</span>
-                                </div>
-                                <div class="col-xs-3">
-                                    <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <span class="city_code">LON1</span>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <span class="tab_city">London, UK</span>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- end 5 row -->
+                            <!-- end 5 row -->
 
-                        <!-- column right, 6 row -->
-                        <div class="tab_line">
+                            <!-- column right, 6 row -->
+                            <div class="tab_line">
 
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <span class="city_code">NYC1</span>
-                                </div>
-                                <div class="col-xs-6">
-                                    <span class="tab_city">New York, USA</span>
-                                </div>
-                                <div class="col-xs-3">
-                                    <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <span class="city_code">NYC1</span>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <span class="tab_city">New York, USA</span>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <a class="cyan_link" href="">Test speed<i class="fas fa-angle-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
+                            <!-- end 6 row -->
                         </div>
-                        <!-- end 6 row -->
 
                     </div>
                     <!-- end column city right -->
