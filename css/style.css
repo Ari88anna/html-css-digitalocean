@@ -436,16 +436,47 @@ section h3 {
     
 }
 
+.ms_shark img{
+    width: 100%;
+}
 
-
-.ms_shark img {
-    width: 100px;
+.ms_shark {
+    width: 80px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    
+    background-color: aqua;
+    opacity: 0.5;
+    border-radius: 20px;
 }
 
+.shark_speech {
+    background-color: white;
+    width: 250px;
+    height:50px;
+    border: 1px solid #031b4e;
+    position: fixed;
+    bottom: 25px;
+    right: 110px;
+    border-radius: 10px;
+}
+
+.shark_speech p {
+    color: #031b4e;
+    font-size: 12px;
+    padding: 5px 15px;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;  
+    border-left: 6px solid white;
+    position: fixed;
+    bottom: 35px;
+    right: 105px;
+}
 
 
 
