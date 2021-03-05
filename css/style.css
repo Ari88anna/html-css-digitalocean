@@ -258,14 +258,23 @@ body {
 }
 
 
-
 /* customers section */
 
-.ms_customers {
-    background-color: darkblue;
+.bg_blue {
+    background: linear-gradient( to bottom, #0048C6 0%, #001F9A 100% );
     color: white;
+    padding: 40px 0;
 }
 
+.bg_blue h3 {
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+.tab_line {
+    border-bottom: 1px solid white;
+    
+}
 
 
 
