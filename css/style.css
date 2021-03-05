@@ -338,6 +338,30 @@ body {
     padding: 40px 0;
 }
 
+/* started section */
+
+.ms_btn {
+    background-color: white;
+    color:#0064f8;    
+}
+
+/* FOOTER */
+
+.bg_dkblue {
+    background-color:#031b4e;
+}
+
+
+
+.foot_menu {
+    list-style-type: none;
+}
+
+.foot_menu li a {
+    font-size: 12px;
+    color: #646987;
+}
+
 
 
 
