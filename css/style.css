@@ -390,7 +390,8 @@ section h3 {
 
 .ms_btn {
     background-color: white;
-    color:#0064f8;    
+    color:#0064f8;
+    margin-bottom: 40px;    
 }
 
 /* FOOTER */
@@ -432,6 +433,16 @@ section h3 {
 
 .foot_menu li a {
     font-size: 12px;
+    
+}
+
+
+
+.ms_shark img {
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
     
 }
 
