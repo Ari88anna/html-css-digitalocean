@@ -43,6 +43,17 @@ body {
     padding: 40px 0;   
 }
 
+.bg_blue {
+    background: linear-gradient( to bottom, #0048C6 0%, #001F9A 100% );
+    color: white;
+    padding: 40px 0;
+}
+
+.bg_blue h3 {
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
 
 /* HEADER */
 
@@ -260,21 +271,41 @@ body {
 
 /* customers section */
 
-.bg_blue {
-    background: linear-gradient( to bottom, #0048C6 0%, #001F9A 100% );
-    color: white;
-    padding: 40px 0;
-}
-
-.bg_blue h3 {
-    text-align: center;
-    padding: 40px 0 20px 0;
+.tab_line::after {
+    content:"";    
+    border-bottom: 1px solid white;
+    display: block;
+    padding-top: 10px;
 }
 
 .tab_line {
-    border-bottom: 1px solid white;
-    
+    margin-top: 10px;
 }
+
+.city_code {
+    padding-left: 20px;
+}
+
+.tab_city {    
+    opacity: 0.6;
+    font-size: 12px;
+} 
+
+.cyan_link  {
+    color: #00d7d2;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.cyan_link i {
+    padding-left: 15px;
+}
+
+.cyan_link:hover {
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
